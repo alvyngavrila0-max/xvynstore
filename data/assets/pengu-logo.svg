@@ -1,0 +1,29 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="penguBody" x1="64" y1="18" x2="64" y2="110" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#000000"/>
+      <stop offset="1" stop-color="#000000"/>
+    </linearGradient>
+    <linearGradient id="penguBelly" x1="64" y1="40" x2="64" y2="103" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F9FCFF"/>
+      <stop offset="1" stop-color="#DDEBFF"/>
+    </linearGradient>
+    <linearGradient id="penguBeak" x1="64" y1="63" x2="64" y2="84" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFD15C"/>
+      <stop offset="1" stop-color="#F7A91B"/>
+    </linearGradient>
+  </defs>
+  <circle cx="64" cy="64" r="60" fill="#000000"/>
+  <path d="M64 18C39.7 18 24 37.7 24 65.4C24 92.7 40.7 110 64 110C87.3 110 104 92.7 104 65.4C104 37.7 88.3 18 64 18Z" fill="url(#penguBody)"/>
+  <path d="M64 38C48 38 37 53.1 37 72.1C37 90.1 48.1 103 64 103C79.9 103 91 90.1 91 72.1C91 53.1 80 38 64 38Z" fill="url(#penguBelly)"/>
+  <path d="M42 56C35.5 60.2 31 66.2 29 73.5C35.9 72.2 42.4 68.8 47 63.4L42 56Z" fill="#000000"/>
+  <path d="M86 56L81 63.4C85.6 68.8 92.1 72.2 99 73.5C97 66.2 92.5 60.2 86 56Z" fill="#000000"/>
+  <ellipse cx="52.5" cy="57" rx="6.5" ry="8" fill="#000000"/>
+  <ellipse cx="75.5" cy="57" rx="6.5" ry="8" fill="#000000"/>
+  <circle cx="54" cy="55" r="2" fill="white"/>
+  <circle cx="77" cy="55" r="2" fill="white"/>
+  <path d="M64 66L50 72.5L64 82L78 72.5L64 66Z" fill="url(#penguBeak)"/>
+  <path d="M50 92C54.6 96 58.9 98 64 98C69.1 98 73.4 96 78 92" stroke="#000000" stroke-width="5" stroke-linecap="round"/>
+  <path d="M47 102C50.2 106.8 54.4 110 59.4 111.6" stroke="#FFD15C" stroke-width="6" stroke-linecap="round"/>
+  <path d="M81 102C77.8 106.8 73.6 110 68.6 111.6" stroke="#FFD15C" stroke-width="6" stroke-linecap="round"/>
+</svg>
